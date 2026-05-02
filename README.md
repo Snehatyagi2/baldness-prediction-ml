@@ -23,12 +23,6 @@ A synthetic dataset was created based on biological insights, and models were tr
 - Scikit-learn  
 - Matplotlib, Seaborn  
 
----
-
-## 📊 Visualization
-
-### Correlation Heatmap
-![Correlation Heatmap](images/heatmap.png)
 
 ---
 
@@ -56,13 +50,13 @@ A synthetic dataset was created based on biological insights, and models were tr
 ## ⚙️ How It Works
 
 A simplified risk model was used to generate the dataset:
+---
 Risk Score =
-0.03 × Age
-
-0.5 × Genetic_Risk
-0.02 × DHT_Level
-0.2 × Family_History
-0.1 × Stress
++ 0.03 × Age
++ 0.5 × Genetic_Risk
++ 0.02 × DHT_Level
++ 0.2 × Family_History
++ 0.1 × Stress
 − 0.1 × Sleep
 − 0.1 × Diet
 ---
@@ -84,6 +78,7 @@ Machine learning models then learned patterns from this data.
 ---
 
 ## 📁 Project Structure
+---
 baldness-prediction-ml/
 │
 ├── notebook.ipynb
