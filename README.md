@@ -65,6 +65,18 @@ Risk Score =
 0.1 × Stress
 − 0.1 × Sleep
 − 0.1 × Diet
+---
+
+## 📚 References
+
+These sources were used to guide the biological assumptions in the dataset:
+
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5308812/  
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2929555/  
+- https://www.nature.com/articles/ncomms10815  
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4387693/  
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5315033/  
+
 
 
 Machine learning models then learned patterns from this data.
@@ -79,10 +91,6 @@ baldness-prediction-ml/
 └── images/
 └── heatmap.png
 ---
-
-## 📚 References
-- Research on androgenetic alopecia  
-- Genetics and DHT-related studies  
 
 ---
 
